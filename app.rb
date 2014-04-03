@@ -19,7 +19,7 @@ class Hello < Sinatra::Base
 
     'First WIP Pull Req From rei-m'
 
-    # TODO もう一行追加してみる
+    'Add New Line'
 
     # TODO:処理終了メッセージを残す
   end
