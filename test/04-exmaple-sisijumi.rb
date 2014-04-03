@@ -9,8 +9,8 @@ class HelloTest < Test::Unit::TestCase
   end
 
   def test_naoya
-    get "/sasajimay4"
+    get "/sasajimay"
     assert_true(last_response.ok?)
-    assert_equal 'Hello, naoya!!!', last_response.body
+    assert_equal 'halo,sasajimay', last_response.body
   end
 end
