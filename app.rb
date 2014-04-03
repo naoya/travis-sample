@@ -15,6 +15,10 @@ class Hello < Sinatra::Base
     'halo,sasajimay2'
   end
 
+  get '/sasajimay3' do
+    'halo,sasajimay3'
+  end
+
   get '/kentana20' do
     'Hello, World!'
   end
