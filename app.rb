@@ -5,6 +5,10 @@ class Hello < Sinatra::Base
     'Hello, World!'
   end
 
+  get '/kentana20' do
+    'Hello, World!'
+  end
+
   get '/rei' do
     'First Pull Req From rei-m'
   end
