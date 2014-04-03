@@ -11,6 +11,7 @@ class Hello < Sinatra::Base
   end
 
   get '/kentana20' do
+    # TODO:World から kentana20 に変える
     'Hello, World!'
   end
 
