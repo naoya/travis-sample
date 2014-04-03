@@ -13,7 +13,10 @@ class Hello < Sinatra::Base
   get '/kentana20' do
     'Hello, kentana20!'
   end
-  # TODO:ここにもう一つ関数を追加する
+
+  get '/kentana30'do
+    'Hello, kenatana30!'
+  end
 
   get '/rei' do
     'First Pull Req From rei-m'
