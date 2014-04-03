@@ -14,6 +14,7 @@ class Hello < Sinatra::Base
     # TODO:World から kentana20 に変える
     'Hello, World!'
   end
+  # TODO:ここにもう一つ関数を追加する
 
   get '/rei' do
     'First Pull Req From rei-m'
