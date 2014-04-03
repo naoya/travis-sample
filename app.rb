@@ -21,7 +21,7 @@ class Hello < Sinatra::Base
 
     'Add New Line'
 
-    # TODO:処理終了メッセージを残す
+    'END method /rei'
   end
 
   get '/ikyu' do
