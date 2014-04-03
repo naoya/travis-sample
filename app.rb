@@ -15,7 +15,14 @@ class Hello < Sinatra::Base
   end
 
   get '/rei' do
+    # TODO:処理開始メッセージを残す
+
+    # TODO:pull reqをwip pull reqに変える
     'First Pull Req From rei-m'
+
+    # TODO もう一行追加してみる
+
+    # TODO:処理終了メッセージを残す
   end
 
   get '/ikyu' do
