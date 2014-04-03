@@ -1,10 +1,11 @@
+# -*- coding: utf-8 -*-
 require 'sinatra/base'
 
 class Hello < Sinatra::Base
   #sasajimay2
   #sasajimay3
   get '/' do
-    'Hello, World!'
+    'Hello, naoya'
   end
 
   get '/sasajimay' do
@@ -25,5 +26,9 @@ class Hello < Sinatra::Base
 
   get '/rei' do
     'First Pull Req From rei-m'
+  end
+
+  get '/ikyu' do
+    'Hello, Ikyu'
   end
 end
