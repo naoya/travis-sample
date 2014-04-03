@@ -12,4 +12,9 @@ class HelloTest < Test::Unit::TestCase
     get "/"
     assert_true(last_response.ok?)
   end
+
+  def test_naoya
+    get "/naoya"
+    assert_true(last_response.ok?)
+  end
 end
