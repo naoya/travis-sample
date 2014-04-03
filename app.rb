@@ -15,7 +15,7 @@ class Hello < Sinatra::Base
   end
 
   get '/rei' do
-    # TODO:処理開始メッセージを残す
+    'START method /rei'
 
     # TODO:pull reqをwip pull reqに変える
     'First Pull Req From rei-m'
