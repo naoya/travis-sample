@@ -11,8 +11,7 @@ class Hello < Sinatra::Base
   end
 
   get '/kentana20' do
-    # TODO:World から kentana20 に変える
-    'Hello, World!'
+    'Hello, kentana20!'
   end
   # TODO:ここにもう一つ関数を追加する
 
