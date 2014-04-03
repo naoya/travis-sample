@@ -8,15 +8,11 @@ class Hello < Sinatra::Base
   end
 
   get '/sasajimay' do
-    'halo,halo'
+    'halo,sasajimay'
   end
 
-  get '/sasajimay' do
-    'halo,halo'
-  end
-
-  get '/sasajimay' do
-    'halo,halo'
+  get '/sasajimay2' do
+    'halo,sasajimay2'
   end
 
   get '/kentana20' do
