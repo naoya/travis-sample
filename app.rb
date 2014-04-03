@@ -16,4 +16,8 @@ class Hello < Sinatra::Base
   get '/rei' do
     'First Pull Req From rei-m'
   end
+
+  get '/ikyu' do
+    'Hello, Ikyu'
+  end
 end
