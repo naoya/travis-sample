@@ -1,1 +1,6 @@
 language: ruby
+deploy:
+  provider: heroku
+  app: radiant-wildwood-3571
+  api_key:
+    secure: ENT+7Gmm1m2HWB0G5s6OJuTVGHpm6G86LQ/oUmKNp9qJY0dE/ITxL+bRuphLYmK0XT8ze8N7CEqMUGQfqmFfk7mUOYQ1OdbVNCMQOsjm9xk6cL03WMG5+LC4oTIYcxFtNMTEHmh1aKaUYk8o7BvLcaY13EzCOZ6mrdq5b0wguRo=
