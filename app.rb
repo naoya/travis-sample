@@ -1,6 +1,8 @@
+# -*- coding: utf-8 -*-
 require 'sinatra/base'
 
 class Hello < Sinatra::Base
+  ## TODO: world じゃなくて naoya にする
   get '/' do
     'Hello, World!'
   end
