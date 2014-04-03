@@ -8,7 +8,7 @@ class HelloTest < Test::Unit::TestCase
     @app ||= Rack::Builder.parse_file("config.ru").first
   end
 
-  def test_naoya
+  def test_sasajimay
     get "/sasajimay"
     assert_true(last_response.ok?)
     assert_equal 'halo,sasajimay', last_response.body
