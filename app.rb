@@ -28,7 +28,13 @@ class Hello < Sinatra::Base
   end
 
   get '/rei' do
-    'First Pull Req From rei-m'
+    'START method /rei'
+
+    'First WIP Pull Req From rei-m'
+
+    'Add New Line'
+
+    'END method /rei'
   end
 
   get '/ikyu' do
