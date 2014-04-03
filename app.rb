@@ -17,8 +17,7 @@ class Hello < Sinatra::Base
   get '/rei' do
     'START method /rei'
 
-    # TODO:pull reqをwip pull reqに変える
-    'First Pull Req From rei-m'
+    'First WIP Pull Req From rei-m'
 
     # TODO もう一行追加してみる
 
