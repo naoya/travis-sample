@@ -2,12 +2,21 @@
 require 'sinatra/base'
 
 class Hello < Sinatra::Base
+
   get '/' do
     'Hello, naoya'
   end
 
   get '/sasajimay' do
-    'halo,halo'
+    'halo,sasajimay'
+  end
+
+  get '/sasajimay2' do
+    'halo,sasajimay2'
+  end
+
+  get '/sasajimay3' do
+    'halo,sasajimay3'
   end
 
   get '/kentana20' do
