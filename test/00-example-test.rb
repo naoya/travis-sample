@@ -11,6 +11,7 @@ class HelloTest < Test::Unit::TestCase
   def test_index
     get "/"
     assert_true(last_response.ok?)
+    assert_equal 'Hello, Sinatra!', last_response.body
   end
 
   def test_naoya
