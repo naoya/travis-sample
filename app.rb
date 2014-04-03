@@ -1,8 +1,9 @@
+# -*- coding: utf-8 -*-
 require 'sinatra/base'
 
 class Hello < Sinatra::Base
   get '/' do
-    'Hello, World!'
+    'Hello, naoya'
   end
 
   get '/sasajimay' do
