@@ -11,6 +11,6 @@ class HelloTest < Test::Unit::TestCase
   def test_rei
     get "/rei"
     assert_true(last_response.ok?)
-    assert_equal 'Hello, naoya!!!', last_response.body
+    assert_equal 'START method /rei First WIP Pull Req From rei-m Add New Line END method /rei ', last_response.body
   end
 end
