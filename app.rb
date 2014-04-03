@@ -11,7 +11,11 @@ class Hello < Sinatra::Base
   end
 
   get '/kentana20' do
-    'Hello, World!'
+    'Hello, kentana20!'
+  end
+
+  get '/kentana30' do
+    'Hello, kentana30!'
   end
 
   get '/rei' do
