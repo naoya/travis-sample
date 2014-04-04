@@ -31,6 +31,10 @@ class Hello < Sinatra::Base
     'Hello, kentana30!'
   end
 
+  get '/kentana40' do
+    'Hello, kentana40!'
+  end
+  
   get '/rei' do
     'START method /rei ' +
     'First WIP Pull Req From rei-m ' +

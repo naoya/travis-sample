@@ -20,4 +20,9 @@ class HelloTest < Test::Unit::TestCase
     assert_equal 'Hello, kentana30!', last_response.body
   end
 
+  def test_kentana40
+    get "/kentana40"
+    assert_true(last_response.ok?)
+    assert_equal 'Hello, kentana40!', last_response.body
+  end
 end
