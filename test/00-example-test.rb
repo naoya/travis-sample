@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 require 'test/unit'
 require 'rack/test'
 
@@ -11,6 +12,6 @@ class HelloTest < Test::Unit::TestCase
   def test_index
     get "/"
     assert_true(last_response.ok?)
-    assert_equal 'Hello, Sinatra!', last_response.body
+    assert_equal 'こんにちは世界', last_response.body
   end
 end
