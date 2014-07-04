@@ -4,7 +4,7 @@ require 'sinatra/base'
 class Hello < Sinatra::Base
 
   get '/' do
-    'こんにちは世界'
+    'こんにちは日本'
   end
 
   get '/naoya' do
