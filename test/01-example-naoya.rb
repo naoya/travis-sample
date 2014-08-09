@@ -13,4 +13,10 @@ class HelloTest < Test::Unit::TestCase
     assert_true(last_response.ok?)
     assert_equal 'Hello, naoya!!!', last_response.body
   end
+
+  def test_naoya_ito
+    get "/naoya_ito"
+    assert_true(last_response.ok?)
+    assert_equal 'Hello, naoya_ito.', last_response.body
+  end
 end

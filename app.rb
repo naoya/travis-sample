@@ -11,6 +11,10 @@ class Hello < Sinatra::Base
     "Hello, naoya!!!"
   end
 
+  get '/naoya_ito' do
+    "Hello, naoya_ito."
+  end
+
   get '/sasajimay' do
     'halo,sasajimay'
   end
